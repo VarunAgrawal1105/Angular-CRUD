@@ -1,0 +1,23 @@
+<div class="container-fluid">
+    <div class="top-nav-1">
+     <a href="/" class="ml-2" style="margin-left: 40px;" >Back to Index</a>
+    </div>
+     <div class="container-fluid p-5 top-nav-2">
+     <form [formGroup]="addPost" (ngSubmit)="collectPost()">
+        <div class="form-group">
+            <label class="level-1" for="title">Title</label>
+            <input required type="text" formControlName="title" id="title" class="form-control mb-3 input-1">
+        </div>
+        <div class="form-group">
+            <label class="level-1" for="categories">Categories</label>
+            <input required type="text" formControlName="categories" id="categories" class="form-control mb-3 input-1">
+        </div>
+        <div class="form-group">
+            <label class="level-1" for="content">Content</label>
+            <textarea type="text" formControlName="content" id="content" class="form-control mb-3 textarea"></textarea>
+        </div>
+        <button type="submit" class="btn btn-success"> Submit </button>
+        <a href="/" class="btn btn-danger"> Cancel </a>
+     </form>
+     </div>
+ </div>

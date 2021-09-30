@@ -1,0 +1,13 @@
+<div class="container-fluid">
+    <div class=" d-flex flex-row-reverse top-nav">
+        <a href="/" class="btn btn-secondary top-nav-1">Back to index</a>
+        <button (click)="deletePost(collection.id)" type="submit" class="btn bg-white top-nav-2">Delete</button>
+        <a routerLink="/update/{{collection.id}}" class="btn btn-info top-nav-2">Edit</a>
+        <button (click)="likePost()" class="btn btn-primary top-nav-2">{{ liked }} Like</button>
+    </div>
+    <div class="container-fluid top-nav-3">
+        <h1 class="mb-2 mt-3">{{ collection.title }}</h1>
+        <div>{{ collection.categories }}</div>
+        <div class="mt-3">{{ collection.content }}</div>
+    </div>
+</div>

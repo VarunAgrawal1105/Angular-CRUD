@@ -1,0 +1,23 @@
+.top-nav-1{
+    background-color: chartreuse; 
+    border: 2px dotted black; 
+    border-radius: 10px; 
+    height:40px;
+}
+.top-nav-2{
+    background-color:#FFB52E; 
+    border: 2px dotted black; 
+    border-radius: 10px; 
+    font-size: medium;
+}
+.level-1{
+    font-weight: bold; 
+    font-size: large;
+}
+.input-1{
+    border: 2px solid black;
+}
+.textarea{
+    height: 150px; 
+    border: 2px solid black;
+}

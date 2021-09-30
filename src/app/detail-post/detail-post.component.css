@@ -1,0 +1,18 @@
+.top-nav{
+    background-color: chartreuse;
+    border: 2px dotted black;
+    border-radius: 10px;
+}
+.top-nav-1{
+    border: 2px solid black;
+}
+.top-nav-2{
+    border: 2px solid black;
+}
+.top-nav-3{
+    background-color: #FFC55C; 
+    border: 2px dotted black; 
+    border-radius: 10px; 
+    height: 470px; 
+    padding: 30px
+}

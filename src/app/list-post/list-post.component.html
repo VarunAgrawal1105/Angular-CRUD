@@ -1,0 +1,17 @@
+<div class="container-fluid">
+    <div class="d-flex flex-row-reverse nav-1">
+        <a routerLink="/add" class="btn bg-white" style="margin-right: 20px;">New Post</a>
+    </div>
+
+<div class="nav-2">
+    <br><br>
+
+<div *ngFor="let item of collection" class="card m-2 card-1">
+    <a  routerLink="/detail/{{item.id}}" class="btn btn-primary bg-light">
+    <div  class="card-body">
+        <h4 class="card-title text-start text-secondary">{{ item.title }}</h4>
+    </div>
+    </a> 
+</div>
+</div>
+</div>

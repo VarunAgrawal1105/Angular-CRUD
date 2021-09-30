@@ -1,0 +1,15 @@
+.nav-1{
+    background-color: chartreuse; 
+    border: 2px dotted black; 
+    border-radius: 10px;
+}
+.nav-2{
+    background-color: #FFB52E; 
+    border: 2px dotted black; 
+    border-radius: 10px; 
+    height:520px 
+}
+.card-1{
+    border: 2px solid black; 
+    border-radius: 10px;
+}
